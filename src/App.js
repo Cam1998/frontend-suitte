@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-/* import React from "react";
-import { BrowserRouter, Routes, Route } from 'react-router-dom'; */
+import React from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nosotros from './Pages/Nosotros/Nosotros';
 
 function App() {
