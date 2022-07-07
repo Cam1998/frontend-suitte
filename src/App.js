@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-/* import Home from './Pages/Home/Home' */
+import Home from './Pages/Home/Home'
 import Empresas from './Pages/Empresas/Empresas'
 import NavBar from './components/NavBar/NavBar'
 import Categorias from './Pages/Categorias/Categorias'
@@ -18,7 +18,7 @@ function App() {
    <BrowserRouter>
    <NavBar/>
    <Routes>
-        {/* <Route path='/' element = {<Home/>} />*/}
+        <Route path='/' element = {<Home/>} />
         <Route path='/Empresas/:name' element = {<Empresas/>} />
         <Route path='/categorias' element = {<Categorias/>} /> 
         <Route path='/somos' element = {<Nosotros/>} />
