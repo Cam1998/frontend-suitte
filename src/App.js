@@ -4,7 +4,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nosotros from './Pages/Nosotros/Nosotros';
 
-function App() {
+const App = () =>{
   return (
     <>
     <BrowserRouter>
