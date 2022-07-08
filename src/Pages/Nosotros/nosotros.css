@@ -4,6 +4,9 @@
 h3{
     color: rgba(45, 212, 191);
 }
+p{
+    line-height : 25px;
+}
 .title h1{
     margin-bottom: 0;
     font-size: 30px;
