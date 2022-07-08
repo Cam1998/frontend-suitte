@@ -75,7 +75,7 @@ const Home = () => {
           alt: 'Perruqueria',
         },
         {
-          src: './images/posicion2.png',
+          src: './images/posicion4.png',
           alt: 'Perruqueria',
         },
         {
