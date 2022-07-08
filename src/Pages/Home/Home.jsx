@@ -58,11 +58,11 @@ const Home = () => {
       imageness: [
         {
           src: './images/ParaConsentirte1.png',
-          alt: 'Perruqueria.',
+          alt: 'Peluqieria.',
         },
         {
           src: './images/ParaConsentirte2.png',
-          alt: 'Perruqueria.',
+          alt: 'peluqueria.',
         },
       ],
     };
@@ -75,7 +75,7 @@ const Home = () => {
           alt: 'Perruqueria',
         },
         {
-          src: './images/Perruqueria2.jpg',
+          src: './images/ParaConsentirte1.png',
           alt: 'Perruqueria',
         },
         {
