@@ -148,7 +148,7 @@ const Home = () => {
         (<Cargando />)
       }
 </section>
-{/* <section className='empresas' id='empresas'>
+<section className='empresas' id='empresas'>
   {
     homex != null ? (
       <div className="pt-6">
@@ -164,13 +164,13 @@ const Home = () => {
                 className="borde w-full h-full object-center object-cover"
               />
             </div>
-            <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
+            {/* <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
               <img
                  src={item.img}
                  alt={item.name}
                 className="borde w-full h-full object-center object-cover"
               />
-            </div>
+            </div> */}
           </div>
                 )
               )
@@ -179,8 +179,8 @@ const Home = () => {
     ):
     (<Cargando/>)
   }
-</section> */}
-        <div className="pt-6">
+</section>
+        {/* <div className="pt-6">
           <center className="letra text-2xl font-extrabold tracking-tight text-black-200 " >Para Consentirte</center>
 
           
@@ -202,7 +202,7 @@ const Home = () => {
           </div>
         </div>
   
-
+ */}
  
         <div className="pt-6">
           <center className="letra text-2xl font-extrabold tracking-tight text-black-200 " >Para tus mascotas</center>
