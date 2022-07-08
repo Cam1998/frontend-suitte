@@ -97,7 +97,8 @@ const Home = () => {
       <center className="letra text-2xl font-extrabold tracking-tight text-black-200 " >Promociones Recientes</center>
       <br />
       <div className="w-full select-none relative">
-    <div className="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+      {/* rounded-lg */}
+    <div className="overflow-hidden relative h-56  sm:h-64 xl:h-80 2xl:h-96">
             <img className="banner"
             src={featuredProducts[currentIndex]} />
           </div>
@@ -132,7 +133,7 @@ const Home = () => {
                   <a href={item.link}>
                     <img
                       key={item.id}
-                      className='w-[210px] sm-[150px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
+                      className='w-[210px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
                       src={item.img}
                       alt={item.link}
                     />
