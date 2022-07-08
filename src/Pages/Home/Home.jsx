@@ -155,6 +155,7 @@ const Home = () => {
           <center className="letra text-2xl font-extrabold tracking-tight text-black-200 " >Para Consentirte</center>
           {
               homex.filter((home)=>home.type=== 3).map(
+                (item) => (
                 <div className="tamaño lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-x-8 gap-8 sm:py-2 sm:py-4 px-5 py-4">
             <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
               <img
@@ -171,6 +172,7 @@ const Home = () => {
               />
             </div>
           </div>
+                )
               )
           }
         </div>
