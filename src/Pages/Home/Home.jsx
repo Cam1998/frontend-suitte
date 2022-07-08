@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import { allHomex } from '../../funtions'
-import { NavLink } from 'react-router-dom'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import Cargando from '../../components/Cargando/Cargando'
 import './home.css'
@@ -128,15 +127,13 @@ const Home = () => {
         className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide slider'
       >
         {homex.map((item) => (
-          <NavLink to={item.link}>
-            <img
+          
+          <img
             key={item.id}
             className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
             src={item.img}
             alt={item.link}
           />
-          </NavLink>
-          
         ))}
       </div>
       <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
