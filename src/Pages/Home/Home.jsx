@@ -30,7 +30,7 @@ const Home = () => {
   const featuredProducts = [
     "./images/imagen_1.jpg",
     "./images/imagen_2.png",
-    "./images/imagen_3.jpg",
+    "./images/paraelbenner.jpg",
   ];
   
     const [currentIndex, setCurrentIndex] = useState(0);
