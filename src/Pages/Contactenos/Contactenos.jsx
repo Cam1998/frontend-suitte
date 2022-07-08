@@ -165,7 +165,7 @@ export const Contactenos = () => {
                as="textarea" 
                id="mensaje" 
                cols="" 
-               rows="2" 
+               rows="3" 
                placeholder="Digita tu mensaje y te responderemos en breve."
                autoComplete="off"
                required
