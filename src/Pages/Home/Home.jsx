@@ -148,7 +148,7 @@ const Home = () => {
         (<Cargando />)
       }
 </section>
-<section className='empresas' id='empresas'>
+{/* <section className='empresas' id='empresas'>
   {
     homex != null ? (
       <div className="pt-6">
@@ -179,8 +179,8 @@ const Home = () => {
     ):
     (<Cargando/>)
   }
-</section>
-        {/* <div className="pt-6">
+</section> */}
+        <div className="pt-6">
           <center className="letra text-2xl font-extrabold tracking-tight text-black-200 " >Para Consentirte</center>
 
           
@@ -200,7 +200,7 @@ const Home = () => {
               />
             </div>
           </div>
-        </div> */}
+        </div>
   
 
  
