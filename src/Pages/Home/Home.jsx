@@ -68,13 +68,7 @@ const Home = () => {
     };
     
     const EmpresaImags3 = {
-      name: 'Basic Tee 6-Pack',
-      price: '$192',
-      href: '#',
-      breadcrumbs: [
-        { id: 1, name: 'Men', href: '#' },
-        { id: 2, name: 'Clothing', href: '#' },
-      ],
+      
       images: [
         {
           src: './images/Perruqueria.jpg',
@@ -82,7 +76,7 @@ const Home = () => {
         },
         {
           src: './images/Perruqueria2.jpg',
-          alt: 'Model wearing plain black basic tee.',
+          alt: 'Perruqueria',
         },
         {
           src: './images/Perruqueria3.jpg',
@@ -94,51 +88,6 @@ const Home = () => {
         },
       ],
     };
-    
-    const products = [
-      {
-        id: 1,
-        name: 'Gran pizza',
-        href: '#',
-        imageSrc: './images/LaGranPizza.png',
-        numer:'3126774392',
-      },
-      {
-        id: 2,
-        name: 'La burger',
-        href: '#',
-        imageSrc: './images/LaBurger.png',
-        numer:'3126774392',
-      },
-      {
-        id: 3,
-        name: 'Gym 360',
-        href: '#',
-        imageSrc: './images/Gym360.png',
-        numer:'3126774392',
-      },
-      {
-        id: 4,
-        name: 'Aquila store',
-        href: '#',
-        imageSrc: './images/Aquila.png',
-        numer:'3126774392',
-      },
-      {
-        id: 5,
-        name: 'Johns motors',
-        href: '#',
-        imageSrc: './images/JohnTaller.png',
-        numer:'3126774392',
-      },
-      {
-        id: 6,
-        name: 'Cejas Latina',
-        href: '#',
-        imageSrc: './images/CejaLatina.png',
-        numer:'3126774392',
-      },
-    ]
     return (
       <>
       {/* Codigo banner */}
