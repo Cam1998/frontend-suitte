@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { allHomex } from '../../funtions'
+import { NavLink } from 'react-router-dom'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import Cargando from '../../components/Cargando/Cargando'
 import './home.css'
