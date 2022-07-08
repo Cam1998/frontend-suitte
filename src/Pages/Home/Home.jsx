@@ -140,16 +140,6 @@ const Home = () => {
                   
                 )
               )
-              /* homex.map(
-                (item) => (
-                    <img
-                      key={item.id}
-                      className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
-                      src={item.img}
-                      alt={item.link}
-                    />
-                )
-              ) */
             }
           </div>
           <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
@@ -158,13 +148,40 @@ const Home = () => {
         (<Cargando />)
       }
 </section>
-    
-    {/* Codigo productos */}
-    
-        <div className="pt-6">
-        <center className="letra text-2xl font-extrabold tracking-tight text-black-200 " >Para Consentirte</center>
+<section className='empresas' id='empresas'>
+  {
+    homex != null ? (
+      <div className="pt-6">
+          <center className="letra text-2xl font-extrabold tracking-tight text-black-200 " >Para Consentirte</center>
+          {
+              homex.filter((home)=>home.type=== 3).map(
+                <div className="tamaño lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-x-8 gap-8 sm:py-2 sm:py-4 px-5 py-4">
+            <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
+              <img
+                src={item.img}
+                alt={item.name}
+                className="borde w-full h-full object-center object-cover"
+              />
+            </div>
+            <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
+              <img
+                 src={item.img}
+                 alt={item.name}
+                className="borde w-full h-full object-center object-cover"
+              />
+            </div>
+          </div>
+              )
+          }
+        </div>
+    ):
+    (<Cargando/>)
+  }
+</section>
+        {/* <div className="pt-6">
+          <center className="letra text-2xl font-extrabold tracking-tight text-black-200 " >Para Consentirte</center>
 
-          {/* Imagenes de 2*/}
+          
           <div className="tamaño lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-x-8 gap-8 sm:py-2 sm:py-4 px-5 py-4">
             <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
               <img
@@ -181,12 +198,12 @@ const Home = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
   
 
  
         <div className="pt-6">
-        <center className="letra text-2xl font-extrabold tracking-tight text-black-200 " >Para tus mascotas</center>
+          <center className="letra text-2xl font-extrabold tracking-tight text-black-200 " >Para tus mascotas</center>
 
           {/* Imagenes de 3*/}
           <div className="tamaño lg:px-8 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-x-8 gap-6 sm:py-2 sm:py-4 px-5 py-4"> 

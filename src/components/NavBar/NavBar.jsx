@@ -87,7 +87,7 @@ const NavBar = () => {
                 <img
                   className="logo2 h-8 w-auto sm:h-10"
                   src={logo}
-                  alt="Pobla Web"
+                  alt="suitte"
                 />
               </div>
               <div className="-mr-2">
