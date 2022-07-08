@@ -181,7 +181,7 @@ export const Contactenos = () => {
         <div>
           
 				  <button type="submit"
-          className="bg-gray-100 hover:bg-gray-100 duration-300 px-4 py-2 border border-transparent font-medium
+          className="bg-gray-100 hover:bg-gray-100 duration-300 px-0 py-2 border border-transparent font-medium
           rounded-md text-black md:w-auto w-full ">Enviar
           </button>
 
