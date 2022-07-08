@@ -42,22 +42,16 @@ const NavBar = () => {
                 {/* Logo modificado css */}
                 <img
                   alt="Suitte"
-                  className="logo"
+                  className="logo h-8 w-auto sm:h-10"
                   src={logo}
                 />
               </NavLink>
               <div className="-mr-2 flex items-center md:hidden">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                        <span className="sr-only">Open main menu</span>
-                        <MenuIcon className="h-6 w-6" aria-hidden="true" />
-                      </Popover.Button>
-                    </div>
-              {/* <div className="-mr-2 flex items-center md:hidden">
                 <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-500">
                     <span className="sr-only">Abrir menú principal</span>
                   <MenuIcon className="h-6 w-6" aria-hidden="true" />
                 </Popover.Button>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
@@ -91,7 +85,7 @@ const NavBar = () => {
               <div>
                 {/* Logo responsive modificado css */}
                 <img
-                  className="logo2"
+                  className="logo2 h-8 w-auto sm:h-10"
                   src={logo}
                   alt="Pobla Web"
                 />
