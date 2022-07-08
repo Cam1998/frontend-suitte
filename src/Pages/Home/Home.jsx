@@ -75,7 +75,7 @@ const Home = () => {
           alt: 'Perruqueria',
         },
         {
-          src: './images/posicion4.png',
+          src: './images/posicion4.jpg',
           alt: 'Perruqueria',
         },
         {
@@ -127,12 +127,15 @@ const Home = () => {
         className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide slider'
       >
         {homex.map((item) => (
-          <img
+          <NavLink to={item.link}>
+            <img
             key={item.id}
             className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
             src={item.img}
-            alt='/'
+            alt={item.link}
           />
+          </NavLink>
+          
         ))}
       </div>
       <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
