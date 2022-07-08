@@ -60,9 +60,9 @@ const NavBar = () => {
                 {item.name}
               </NavLink>
             ))}
-            <NavLink to={'/contacto'} className="font-medium text-gray-600 hover:text-cyan-400">
+            <a href='/contacto' className="font-medium text-gray-600 hover:text-cyan-400">
               Contáctenos
-            </NavLink>
+            </a>
           </div>
         </nav>
       </div>
@@ -108,12 +108,12 @@ const NavBar = () => {
                 </a>
               ))}
             </div>
-            <NavLink
-              to={"/contacto"}
+            
+            <a href='/contacto'
               className="block w-full px-5 py-3 text-center font-medium text-gray-700 hover:text-zinc-100 bg-gray-50 hover:bg-cyan-600"
             >
               Contáctenos
-            </NavLink>
+            </a>
           </div>
         </Popover.Panel>
       </Transition>
