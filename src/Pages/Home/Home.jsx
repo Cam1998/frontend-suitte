@@ -71,19 +71,19 @@ const Home = () => {
       
       images: [
         {
-          src: './images/Perruqueria.jpg',
+          src: './images/posicion1.jpg',
           alt: 'Perruqueria',
         },
         {
-          src: './images/ParaConsentirte1.png',
+          src: './images/posicion2.png',
           alt: 'Perruqueria',
         },
         {
-          src: './images/Perruqueria3.jpg',
+          src: './images/posicion3.jpg',
           alt: 'Perruqueria',
         },
         {
-          src: './images/Perruqueria5.jpg',
+          src: './images/posicion5.jpg',
           alt: 'Perruqueria',
         },
       ],
