@@ -12,8 +12,10 @@ const Home = () => {
   useEffect(() =>{
     allHomex(setHomex)
   },[])
+/* function home2{
 
-
+}
+ */
   const slideLeft = () => {
     var slider = document.getElementById('slider');
     slider.scrollLeft = slider.scrollLeft - 500;
@@ -75,7 +77,7 @@ const Home = () => {
           alt: 'Perruqueria',
         },
         {
-          src: './images/posicion4.jpg',
+          src: './images/posicion2.jpg',
           alt: 'Perruqueria',
         },
         {
@@ -119,27 +121,29 @@ const Home = () => {
   <center className="letra text-2xl font-extrabold tracking-tight text-black-200" >Empresas Asociadas</center>
   
 <section className='empresas' id='empresas'>
-      {homex != null ? (
-      <div className='relative flex items-center'>
-      <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
-      <div
-        id='slider'
-        className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide slider'
-      >
-        {homex.map((item) => (
-          
-          <img
-            key={item.id}
-            className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
-            src={item.img}
-            alt={item.link}
-          />
-        ))}
-      </div>
-      <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
-    </div>
-):
-      (<Cargando />)}
+      {
+        homex != null ? (
+          <div className='relative flex items-center'>
+          <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
+          <div id='slider' className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide slider'>
+            {
+              homex.map(
+                (item) => (
+                    <img
+                      key={item.id}
+                      className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
+                      src={item.img}
+                      alt={item.link}
+                    />
+                )
+              )
+            }
+          </div>
+          <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
+        </div>
+        ):
+        (<Cargando />)
+      }
 </section>
     
     {/* Codigo productos */}
