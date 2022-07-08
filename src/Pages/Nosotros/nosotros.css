@@ -1,7 +1,9 @@
 .title{
     margin-left: 20%;  
 }
-
+.h3{
+    color: rgba(45, 212, 191);
+}
 .title h1{
     margin-bottom: 0;
     font-size: 30px;
