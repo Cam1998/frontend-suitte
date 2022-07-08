@@ -133,7 +133,7 @@ const Home = () => {
                   <a href={item.link}>
                     <img
                       key={item.id}
-                      className='w-[210px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
+                      className='w-[200px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
                       src={item.img}
                       alt={item.link}
                     />
