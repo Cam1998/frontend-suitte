@@ -127,7 +127,7 @@ const Home = () => {
           <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
           <div id='slider' className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide slider'>
             {
-              homex.filter((home)=>home.id=== 2).map(
+              homex.filter((home)=>home.type=== 2).map(
                 (item) => (
                   <img
                     key={item.id}
