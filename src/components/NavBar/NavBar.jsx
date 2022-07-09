@@ -110,7 +110,7 @@ const NavBar = () => {
             </div>
             
             <a href='/contacto'
-              className="block w-full px-5 py-3 text-center font-medium text-gray-700 hover:text-zinc-100 bg-gray-50 hover:bg-cyan-600"
+              className="block w-full px-5 py-3 text-center font-medium text-gray-700 hover:text-zinc-100 bg-gray-100 hover:bg-cyan-600"
             >
               Contáctenos
             </a>
