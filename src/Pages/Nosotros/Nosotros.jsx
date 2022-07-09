@@ -28,7 +28,7 @@ la programación y el diseño que fomenta la estética y el crecimiento exponenc
 </div>
 
 <br></br>
-<div id="misionyvision" className="title">
+<div id="misionvision" className="title">
   <br></br>
   <h3 align="right">Misión</h3>
 </div>
@@ -63,7 +63,7 @@ la programación y el diseño que fomenta la estética y el crecimiento exponenc
 </div>
 
 <br></br>
-<div id="valores" className="title">
+<div id="valoresempresa" className="title">
   <br></br>
   <h3 align="right">Valores de la Empresa</h3>
 </div>

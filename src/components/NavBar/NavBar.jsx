@@ -80,8 +80,8 @@ const NavBar = () => {
           focus
           className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
         >
-          <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-            <div className="px-5 pt-4 flex items-center justify-between">
+          <div className='menu md-flex shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden md:z-auto left-0 w-full md:w-auto md:pl-0 pl-0 transition-all duration-500 ease-in lg:relative md:pb-0 pb-12 absolute md:static'>
+          <div className="menu2 px-3 pt-0 flex items-center justify-between">
               <div>
                 {/* Logo responsive modificado css */}
                 <img
@@ -97,7 +97,7 @@ const NavBar = () => {
                 </Popover.Button>
               </div>
             </div>
-            <div className="px-2 pt-2 pb-3 space-y-1">
+            <div className="menu3 px-2 pt-1 pb-3 space-y-0">
               {navigation.map((item) => (
                 <a
                   key={item.name}

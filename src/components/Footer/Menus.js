@@ -6,8 +6,8 @@
   ];
   export const NOSOTROS = [
     { name: "Historia de la Empresa", link: "/somos" },
-    { name: "Misión y Visión", link: "/somos#misionyvision" },
-    { name: "Valores de la Empresa", link: "/somos#valores" },
+    { name: "Misión y Visión", link: "/somos#misionvision" },
+    { name: "Valores de la Empresa", link: "/somos#valoresempresa" },
   ];
   export const CONTACTO = [
     { name: "Contáctenos", link: "/contacto" },
