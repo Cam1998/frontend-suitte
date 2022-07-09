@@ -1,8 +1,8 @@
   //Codigo del nombre y link - listas del footer
   export const CATEGORÍAS = [
-    { name: "Afiliados", link: "#" },
-    { name: "Publicidad", link: "#" },
-    { name: "Tiendas", link: "#" },
+    { name: "Afiliados", link: "/#afiliados" },
+    /* { name: "Publicidad", link: "#" }, */
+    { name: "Categorías", link: "/categorias" },
   ];
   export const NOSOTROS = [
     { name: "Historia de la Empresa", link: "/somos" },

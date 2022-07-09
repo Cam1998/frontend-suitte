@@ -121,7 +121,7 @@ const Home = () => {
 
   <center className="letra text-2xl font-extrabold tracking-tight text-black-200" >Empresas Asociadas</center>
   
-<section className='empresas' id='empresas'>
+<section className='empresas' id='afiliados'>
       {
         homex != null ? (
           <div className='relative flex items-center'>

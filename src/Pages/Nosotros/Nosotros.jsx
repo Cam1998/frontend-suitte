@@ -28,12 +28,12 @@ la programación y el diseño que fomenta la estética y el crecimiento exponenc
 </div>
 
 <br></br>
-<div id="misionvision" className="title">
+<div className="title">
   <br></br>
   <h3 align="right">Misión</h3>
 </div>
 
-<div className="linea"></div>
+<div className="linea" id="misionvision"></div>
 
 <div className="parrafo2">
   <img className="imag" src="https://firebasestorage.googleapis.com/v0/b/prueba-d4e0c.appspot.com/o/pexels-daria-shevtsova-704569.jpg?alt=media&token=9fc31c55-476b-4a72-be29-c579a00928c1" alt="Mision" />
@@ -63,11 +63,11 @@ la programación y el diseño que fomenta la estética y el crecimiento exponenc
 </div>
 
 <br></br>
-<div id="valoresempresa" className="title">
+<div className="title">
   <br></br>
   <h3 align="right">Valores de la Empresa</h3>
 </div>
-<div className="linea"></div>
+<div className="linea" id="valoresempresa"></div>
 
 <div className="parrafo2">
   <img className="imag" src="https://firebasestorage.googleapis.com/v0/b/prueba-d4e0c.appspot.com/o/pexels-daria-shevtsova-704569.jpg?alt=media&token=9fc31c55-476b-4a72-be29-c579a00928c1" alt="Mision" />
