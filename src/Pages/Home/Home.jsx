@@ -119,9 +119,9 @@ const Home = () => {
   <br></br>  
   <br></br>  
 
-  <center className="letra text-2xl font-extrabold tracking-tight text-black-200" >Empresas Asociadas</center>
+  <center id='afiliados' className="letra text-2xl font-extrabold tracking-tight text-black-200" >Empresas Asociadas</center>
   
-<section className='empresas' id='afiliados'>
+<section className='empresas' >
       {
         homex != null ? (
           <div className='relative flex items-center'>
@@ -158,11 +158,14 @@ const Home = () => {
               {homex.filter((home)=>home.type=== 3).map(
                   (item) => (
                 <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
+                  <a href={item.link}>
                     <img
                       src={item.img}
                       alt={item.name}
                       className="borde w-full h-full object-center object-cover"
                     />
+                  </a>
+                    
                     
                 </div>
                 )
